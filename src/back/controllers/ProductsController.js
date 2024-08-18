@@ -1,19 +1,46 @@
-const dataService = require('../dataService');
+// controllers/ProductsController.js
+const Producto = require('../models/Producto');
 
-// Controlador para obtener todos los productos
-function obtenerTodosLosProductos(req, res) {
-    const productos = dataService.leerProductos();
-    res.json(productos);
+async function obtenerTodosLosProductos(req, res) {
+    try {
+        const productos = await Producto.find();
+        res.json(productos);
+    } catch (err) {
+        res.status(500).send(err);
+    }
 }
 
-// Controlador para agregar un nuevo producto
-function agregarNuevoProducto(req, res) {
-    const nuevoProducto = req.body; // Suponiendo que los datos del nuevo producto están en el cuerpo de la solicitud
-    const productoCreado = dataService.agregarProducto(nuevoProducto);
-    res.status(201).json(productoCreado);
+async function agregarNuevoProducto(req, res) {
+    const nuevoProducto = new Producto(req.body);
+    try {
+        const productoCreado = await nuevoProducto.save();
+        res.status(201).json(productoCreado);
+    } catch (err) {
+        res.status(500).send(err);
+    }
+}
+
+async function actualizarProducto(req, res) {
+    try {
+        const productoActualizado = await Producto.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        res.json(productoActualizado);
+    } catch (err) {
+        res.status(500).send(err);
+    }
+}
+
+async function eliminarProducto(req, res) {
+    try {
+        await Producto.findByIdAndRemove(req.params.id);
+        res.status(204).send();
+    } catch (err) {
+        res.status(500).send(err);
+    }
 }
 
 module.exports = {
     obtenerTodosLosProductos,
     agregarNuevoProducto,
+    actualizarProducto,
+    eliminarProducto,
 };

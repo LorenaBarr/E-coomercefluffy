@@ -7,7 +7,8 @@ const userController = require('../controllers/UserController');
 // Rutas para productos
 router.get('/productos', productsController.obtenerTodosLosProductos);
 router.post('/productos', productsController.agregarNuevoProducto);
-// Agrega más rutas para productos según sea necesario
+router.put('/productos/:id', productsController.actualizarProducto);
+router.delete('/productos/:id', productsController.eliminarProducto);
 
 // Rutas para usuarios
 router.get('/usuarios', userController.obtenerTodosLosUsuarios);

@@ -1,32 +1,22 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const path = require('path');
-const routes = require('./routes/routes');
-
-
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import routes from './routes/routes.js';
+import './db.js';
 
 const app = express();
-require('dotenv').config();
 
-
-
-// Configura middleware para manejar el cuerpo de las solicitudes en formato JSON
 app.use(express.json());
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log('MongoDB connected'))
-    .catch(err => console.log(err));
-
-    // Configurar Content Security Policy
-app.use((req, res, next) => {
-  res.setHeader("Content-Security-Policy", "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';");
-  next();
-});
-
-// Usa las rutas definidas en el archivo routes.js
 app.use('/api', routes);
 
-// Servir archivos estáticos desde la carpeta 'src/front'
-app.use(express.static(path.join(__dirname, '../front')));
+// Configurar el directorio estático para servir los archivos compilados de React
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {

@@ -1,0 +1,86 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #FFFCF2;
+    margin: 0;
+    padding: 0;
+    color: #2f2f2a;
+}
+
+main {
+    min-height: 100vh;
+}
+header {
+    background-color: #f36cac;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #FFFCF2;
+}
+
+nav {
+    background-color: #C8EDED;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4c4c44;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #C8EDED;
+    padding: 20px;
+    text-align: center;
+    color: #4c4c44;
+}
+
+.carrito-item {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.cantidad-input {
+    width: 50px;
+}
+
+.eliminar-btn {
+    background-color: #f36cac;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.eliminar-btn:hover {
+    background-color: #b4547c;
+}
+
+
+footer {
+    background-color: #C8EDED;
+    padding: 20px;
+    text-align: center;
+    color: #4c4c44;
+    margin-top: auto;
+}

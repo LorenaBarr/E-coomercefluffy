@@ -1,6 +1,7 @@
 {
   "name": "e-coomercenode",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "node src/back/app.js"
   },
@@ -12,6 +13,7 @@
     "dotenv": "^16.4.5",
     "e-coomercenode": "file:",
     "express": "^4.19.2",
-    "mongoose": "^8.5.2"
+    "mongoose": "^8.5.2",
+    "node-fetch": "^3.3.2"
   }
 }

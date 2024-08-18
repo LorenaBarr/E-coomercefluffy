@@ -1,21 +1,13 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
-const ProductoSchema = new mongoose.Schema({
+const productoSchema = new mongoose.Schema({
+  id: Number,
   nombre: String,
   precio: Number,
   descripcion: String,
-  imagen: String
+  imagen: String,
 });
 
-module.exports = mongoose.model('Producto', ProductoSchema);
+const Producto = mongoose.model('Producto', productoSchema);
 
-// models/Usuario.js
-const mongoose = require('mongoose');
-
-const UsuarioSchema = new mongoose.Schema({
-  nombre: String,
-  email: String,
-  contraseña: String
-});
-
-module.exports = mongoose.model('Usuario', UsuarioSchema);
+export default Producto;

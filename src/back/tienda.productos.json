@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b94"
+  },
+  "id": 1,
+  "nombre": "Peluche de Oveja",
+  "precio": 30000,
+  "descripcion": "Muñecos de peluche súper lindos de oveja, conejo y alpaca de 25 cm, juguetes suaves rellenos de animales, cojín de peluche para cumpleaños, boda, fiesta de Pascua",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/cdab333d497e180caa7acb92d74223dc.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b95"
+  },
+  "id": 2,
+  "nombre": "Peluche Panda",
+  "precio": 60000,
+  "descripcion": "Peluches de bambú grande y panda con bambú",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/0eecae2e0ef4a59151a8c607d0f57ab2.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b96"
+  },
+  "id": 3,
+  "nombre": "Peluche Panda Rojo",
+  "precio": 50000,
+  "descripcion": "Cojín De Peluche De Figura De Anime Relleno De 23CM Que Se Convierte En Un Panda Rojo De Peluche Con Pelo Esponjoso, Parecido A Un Mapache Rojo, Para Abrazar",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/ddd4c8e7c7f5f9b240383f19f555d7a6.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b97"
+  },
+  "id": 4,
+  "nombre": "Peluche conejo",
+  "precio": 30000,
+  "descripcion": "Cojín De Conejo Transformable, Peluche De Conejo Fresa, Muñeco De Conejo Zanahoria, Almohada, Regalo De Cumpleaños, Regalo De Vacaciones, Regalo De Pascua, Regalo De Navidad",
+  "imagen": "https://img.kwcdn.com/product/fancy/acc39cc2-ce9b-43e9-98d4-73ab1afdefbf.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b98"
+  },
+  "id": 5,
+  "nombre": "Llavero Pinguino",
+  "precio": 20000,
+  "descripcion": "Lindo Oso De Peluche De Pingüino Transformador, Mochila De Dibujos Animados, Colgante De Felpa, Llavero De Accesorios De Bolso Kawaii De Anime.",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/ac88fd1e28958faa97a84945f17af935.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b99"
+  },
+  "id": 6,
+  "nombre": "Peluche Pingüino",
+  "precio": 40000,
+  "descripcion": "Lindo Peluche De Pingüino De Girasol, Juguete Kawaii De Peluche Suave, Regalo De San Valentín Y Regalo De Cumpleaños (9.9 Pulgadas)",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/29a23e523034c10b7d6b3ea4df910621.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b9a"
+  },
+  "id": 7,
+  "nombre": "Peluche de Gato",
+  "precio": 30000,
+  "descripcion": "Juguetes De Peluche De Viñetas De Animales De 6 Estilos De 27,94 Cm: Regalo Perfecto, Almohada Decorativa Para Dormitorio, Sala De Estar, Juguete Para Regalo",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/4abe5e3d00139134a261f6178c09a0ce.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b9b"
+  },
+  "id": 8,
+  "nombre": "Peluche Zorrito",
+  "precio": 50000,
+  "descripcion": "27 cm/10,63 pulgadas Kawaii Kiriko zorro de peluche de juguete Overwatch muñeco de peluche figura de juego de dibujos animados juguetes de peluche suaves lindo Overwatch Kiriko Fox",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/526b156102b74e48be6988116bc1ea79.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b9c"
+  },
+  "id": 9,
+  "nombre": "Peluche Gato Melocoton",
+  "precio": 50000,
+  "descripcion": "Muñeco De Peluche De Gato Melocotón, Lindo Y Acostado, De Color Negro Y Blanco, De Tamaño Grande, Muñeco De Pareja",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/d5c7bfdb9187b4708e6fb94c5d507e29.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b9d"
+  },
+  "id": 10,
+  "nombre": "Peluche Nutria",
+  "precio": 112000,
+  "descripcion": "Juguete de peluche de nutria con simulación de respiración musical, cómodo y suave animal de peluche de nutria con características de luz y ritmo, divertido juguete de compañía para familiares y amigos, regalo ideal de Pascua, pilas no incluidas.",
+  "imagen": "https://img.kwcdn.com/product/fancy/738a6732-866b-4aa6-8c90-9b630a7e8955.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b9e"
+  },
+  "id": 11,
+  "nombre": "Peluche Manta Kawaii",
+  "precio": 10,
+  "descripcion": "Bat Peluche Manta Kawaii Animal Creativo Peluche Relleno Almohada Suave Juguete Niño Niña Mujer Regalo",
+  "imagen": "https://img.kwcdn.com/product/open/2023-09-11/1694401499145-211bef96fca346c89b3a103384bf6729-goods.jpeg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507b9f"
+  },
+  "id": 12,
+  "nombre": "Almohada Oveja",
+  "precio": 55000,
+  "descripcion": "Regalo De Año Nuevo, Regalo De Cumpleaños, Regalo De San Valentín: Un Juguete De Peluche Redondo Y Gordito, Una Almohada De Muñeca De Peluche De Oveja Suave.",
+  "imagen": "https://img.kwcdn.com/product/open/2024-01-01/1704104176478-4f80365ab17244009091f2281e347c4a-goods.jpeg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba0"
+  },
+  "id": 13,
+  "nombre": "Peluche Ciervo",
+  "precio": 35000,
+  "descripcion": "Decoración De Peluche De Animales De Peluche, Navidad, Cervatillo De Peluche De Peluche, Juguete De Peluche De Reno De Navidad, Regalos De Cumpleaños Para Niños Y Niñas",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/a188f491e3bb998f2b951ef3c7876ddc.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba1"
+  },
+  "id": 14,
+  "nombre": "Peluche Hollow Knight",
+  "precio": 35000,
+  "descripcion": "Peluche de anime de 10,63 pulgadas, juguete, para niños",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/a19c7884432cccb56c3254dfc407317c.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba2"
+  },
+  "id": 15,
+  "nombre": "Peluche Cinnamoroll",
+  "precio": 45000,
+  "descripcion": "1pc Muñeco de Peluche Kawaii Cinnamoroll Caliente, Modelo de Peluche de Juguete Sanrio - Para Niñas y Niños, Mujeres y Novias",
+  "imagen": "https://img.kwcdn.com/product/fancy/92248abd-713f-4082-a126-2a35b8ca20ab.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba3"
+  },
+  "id": 16,
+  "nombre": "Peluche De Alpaca",
+  "precio": 25000,
+  "descripcion": "Lindo Peluche De Alpaca, Nuevo Almohada De Muñeca De Alpaca",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/82addce95a82bec57791d71e47972e85.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba4"
+  },
+  "id": 17,
+  "nombre": "Peluche De Dragón",
+  "precio": 50000,
+  "descripcion": "25cm/9.84in Peluche De Dragón Lindo Peluche De Dragón Verde Animal De Peluche Abrazo Cojín Juguete Kawaii Peluche Regalos Para Niños Niñas",
+  "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/86b3c2e5af4dc709773a39de61eec68a.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba5"
+  },
+  "id": 18,
+  "nombre": "Chimuelo",
+  "precio": 50000,
+  "descripcion": "Descripción del Producto 2",
+  "imagen": "https://img.kwcdn.com/product/fancy/6565d31a-a7d7-4471-84e5-902c39c73e26.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba6"
+  },
+  "id": 19,
+  "nombre": "Peluche Foxy",
+  "precio": 60000,
+  "descripcion": "Adorable stuffed animal, amusing toy fox, plush animal doll, present for birthdays, or Christmas",
+  "imagen": "https://img.kwcdn.com/product/fancy/2a3256c3-943d-405a-9963-0b2cfd277c90.jpg?imageView2/2/w/800/q/70/format/webp"
+},
+{
+  "_id": {
+    "$oid": "66c215ff10c69df931507ba7"
+  },
+  "id": 20,
+  "nombre": "Peluche De Capibara",
+  "precio": 40000,
+  "descripcion": "1 Unidad, Peluches De Capibara, Juguetes De Peluche De Capibara, Roedores Kawaii, Juguetes De Peluche De Capibara Adorables, Adorables Y Lindos Peluches De Capibara, El Mejor Regalo De Cumpleaños",
+  "imagen": "https://img.kwcdn.com/product/open/2024-02-24/1708758798541-fffbae8647ef470fa96d7f0c550145fd-goods.jpeg?imageView2/2/w/800/q/70/format/webp"
+}]

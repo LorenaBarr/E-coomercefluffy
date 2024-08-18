@@ -10,7 +10,7 @@ function App() {
       <Header />
       <main>
         <section>
-          <h2>Productos de MongoDB</h2>
+          <h2 id="Peluches">Productos de MongoDB</h2>
           <ProductList />
         </section>
         <section>

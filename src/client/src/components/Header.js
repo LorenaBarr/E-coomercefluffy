@@ -6,7 +6,9 @@ function Header() {
       <h1>Mi Fluffy E-commerce</h1>
       <nav>
         <a href="/">Inicio</a>
+        <a href="#peluches">Peluches</a>
         <a href="#productos-exclusivos">Productos Exclusivos</a>
+
       </nav>
     </header>
   );

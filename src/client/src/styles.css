@@ -1,50 +1,139 @@
+/* Estilos generales */
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: #f7f7f7;
+  font-family: "Lato", sans-serif;
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
+/* Estilos para el encabezado */
 header {
-  background-color: #44d0e6;
+  background-color: #ffccf9;
   padding: 20px;
-  color: white;
-  text-align: center;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: #4a4a4a;
+  font-size: 2rem;
+  margin: 0;
 }
 
 nav a {
   margin: 0 15px;
-  color: white;
   text-decoration: none;
+  color: #4a4a4a;
+  font-size: 1.1rem;
 }
 
-.product-list, .exclusive-product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+nav a:hover {
+  color: #ff66cc;
 }
 
-.product-card {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin: 10px;
+/* Estilos para las secciones */
+main {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Estilos para las cards en cuadrícula */
+.product-list,
+.exclusive-product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Estilos para las cards */
+.product-card,
+.exclusive-product-card {
+  background-color: #f0f4ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  margin: 15px;
   text-align: center;
-  width: 200px;
+  transition: transform 0.2s ease;
 }
 
-.product-card img {
+.product-card:hover,
+.exclusive-product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen del producto */
+.product-card img,
+.exclusive-product-card img {
   max-width: 100%;
-  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Título del producto */
+.product-card h3,
+.exclusive-product-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Descripción */
+.product-card p,
+.exclusive-product-card p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Botón de añadir a favoritos */
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.favorite-btn.selected {
+  color: red;
+  transform: scale(1.2);
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo para el texto del botón */
+.favorite-text {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Colores pastel adicionales */
+body {
+  background-color: #fef9ff;
+}
+
+h2 {
+  color: #4a4a4a;
+  font-size: 1.5rem;
 }
 
 footer {
-  background-color: #44d0e6;
-  color: white;
+  background-color: #ffccf9;
+  padding: 15px;
   text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  color: #4a4a4a;
 }

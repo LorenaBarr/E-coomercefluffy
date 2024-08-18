@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #f9f9f9;
   margin: 0;
   padding: 0;
@@ -44,8 +44,7 @@ main {
 }
 
 /* Estilos para las cards en cuadrícula */
-.product-list,
-.exclusive-product-list {
+.product-list, .exclusive-product-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
@@ -54,8 +53,7 @@ main {
 }
 
 /* Estilos para las cards */
-.product-card,
-.exclusive-product-card {
+.product-card, .exclusive-product-card {
   background-color: #f0f4ff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -65,30 +63,26 @@ main {
   transition: transform 0.2s ease;
 }
 
-.product-card:hover,
-.exclusive-product-card:hover {
+.product-card:hover, .exclusive-product-card:hover {
   transform: scale(1.05);
 }
 
 /* Imagen del producto */
-.product-card img,
-.exclusive-product-card img {
+.product-card img, .exclusive-product-card img {
   max-width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
 /* Título del producto */
-.product-card h3,
-.exclusive-product-card h3 {
+.product-card h3, .exclusive-product-card h3 {
   color: #333;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 /* Descripción */
-.product-card p,
-.exclusive-product-card p {
+.product-card p, .exclusive-product-card p {
   color: #666;
   font-size: 1rem;
   margin-bottom: 10px;
